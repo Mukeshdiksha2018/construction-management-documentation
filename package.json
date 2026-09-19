@@ -7,8 +7,10 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "docus": "latest",
     "better-sqlite3": "^12.11.1",
-    "nuxt": "^4.4.8"
+    "docus": "latest",
+    "marked": "^17.0.6",
+    "nuxt": "^4.4.8",
+    "playwright": "^1.63.0"
   }
 }

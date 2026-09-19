@@ -14,7 +14,7 @@ A practical guide for business analysts and customer-service teams who help user
 #links
   :::u-button
   ---
-  color: neutral
+  color: primary
   size: xl
   to: /foundation-and-master-data
   trailing-icon: i-lucide-arrow-right
@@ -34,10 +34,10 @@ What this guide covers
   to: /foundation-and-master-data
   ---
   #title
-  Foundation and masters
+  Foundation and master data
 
   #description
-  Corporations, Chart of Accounts, UOM, Ship Via, Freight, vendors, and other setup values.
+  Set up corporations, accounts, masters, and vendors.
   :::
 
   :::u-page-feature
@@ -46,10 +46,34 @@ What this guide covers
   to: /projects
   ---
   #title
-  Projects and cost codes
+  Projects
 
   #description
-  Create projects, cost code divisions, configurations, item types, and items.
+  Create and manage construction projects.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-hash
+  to: /cost-codes
+  ---
+  #title
+  Cost codes
+
+  #description
+  Configure cost code divisions and configurations.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-boxes
+  to: /item-types-and-items
+  ---
+  #title
+  Item Types and Items List
+
+  #description
+  Maintain item types and the preferred-item catalog.
   :::
 
   :::u-page-feature
@@ -58,10 +82,34 @@ What this guide covers
   to: /estimates
   ---
   #title
-  Estimates and purchasing
+  Estimates
 
   #description
-  Build the project budget, raise purchase orders, and record change orders.
+  Create the project budget and approval workflow.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-shopping-cart
+  to: /purchase-orders
+  ---
+  #title
+  Purchase Orders
+
+  #description
+  Commit material or labor from a vendor.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-git-branch
+  to: /change-orders
+  ---
+  #title
+  Change Orders
+
+  #description
+  Modify an existing purchase order commitment.
   :::
 
   :::u-page-feature
@@ -70,10 +118,22 @@ What this guide covers
   to: /stock-receipt-notes
   ---
   #title
-  Receiving and invoices
+  Stock Receipt Notes (GRN)
 
   #description
-  Record stock receipt notes and vendor invoices, including advance payments.
+  Record material shipment and receipt.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-receipt
+  to: /vendor-invoices
+  ---
+  #title
+  Vendor Invoices
+
+  #description
+  Record vendor invoices, advances, and holdback.
   :::
 
   :::u-page-feature
@@ -85,7 +145,19 @@ What this guide covers
   Reports
 
   #description
-  Review budget, payable, stock, and aging reports from Construction Reports.
+  Review budget, payable, and stock reports.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-workflow
+  to: /end-to-end-workflows
+  ---
+  #title
+  End-to-end workflows
+
+  #description
+  Follow the main construction process from masters to reports.
   :::
 
   :::u-page-feature
@@ -94,9 +166,21 @@ What this guide covers
   to: /troubleshooting
   ---
   #title
-  Support playbook
+  Troubleshooting and FAQ
 
   #description
-  End-to-end workflows, common issues, and the status glossary for escalations.
+  Resolve common user and support questions.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-book-text
+  to: /glossary
+  ---
+  #title
+  Glossary and status reference
+
+  #description
+  Business terms and status meanings.
   :::
 ::

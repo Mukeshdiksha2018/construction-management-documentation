@@ -1,0 +1,26 @@
+---
+description: Keep the documentation PDF download generated from live content in PDF chapter order
+alwaysApply: true
+---
+
+# Documentation PDF stays in sync with content
+
+The header **Download PDF** button must always generate `nimble-construction-accounting-documentation.pdf` from the current [`content/`](content/) markdown and [`public/images/`](public/images/) screenshots. Never replace it with a checked-in copy of the original PDF.
+
+When documentation content changes, the next download must include those changes. Update [`server/utils/documentationPdf.ts`](server/utils/documentationPdf.ts) and [`server/assets/user-guide.css`](server/assets/user-guide.css) if the export pipeline or print layout must change. Preserve the original print layout: A4, cover page with logo, chapter page breaks, screenshot captions, and footer `Nimble Construction Accounting Documentation • {page}`.
+
+Keep sidebar, homepage, import script, and PDF chapter order identical. Chapter files use zero-padded prefixes (`01.` through `09.`, then `10.`–`13.`) plus `navigation.order` so the list never sorts as 1, 10, 11, 2:
+
+1. Foundation and master data
+2. Projects
+3. Cost codes
+4. Item Types and Items List
+5. Estimates
+6. Purchase Orders
+7. Change Orders
+8. Stock Receipt Notes (GRN)
+9. Vendor Invoices
+10. Reports
+11. End-to-end workflows
+12. Troubleshooting and FAQ
+13. Glossary and status reference

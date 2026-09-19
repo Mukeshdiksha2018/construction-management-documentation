@@ -10,12 +10,13 @@ export default defineAppConfig({
       light: '/images/nimble-property-logo.jpg',
       dark: '/images/nimble-property-logo.jpg',
       alt: 'Nimble Property',
+      class: 'h-12 w-auto max-h-12 object-contain',
     },
   },
   github: false,
   ui: {
     colors: {
-      primary: 'sky',
+      primary: 'brand',
       neutral: 'slate',
     },
   },
