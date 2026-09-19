@@ -39,8 +39,8 @@ async function downloadPdf() {
 <template>
   <UButton
     icon="i-lucide-download"
-    color="primary"
-    variant="soft"
+    color="neutral"
+    variant="solid"
     size="sm"
     :loading="loading"
     class="hidden sm:inline-flex"
@@ -50,8 +50,8 @@ async function downloadPdf() {
   </UButton>
   <UButton
     icon="i-lucide-download"
-    color="primary"
-    variant="ghost"
+    color="neutral"
+    variant="solid"
     square
     :loading="loading"
     class="sm:hidden"
